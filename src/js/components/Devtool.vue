@@ -176,7 +176,7 @@ const app = {
       location.reload();
     },
     injectScript () {
-      // inject ccdevtool
+      // inject devtool
       const fn = injectedScript.toString();
       const js = `(${fn})();`
       return this.eval(js).then(_ => log('injected!'));

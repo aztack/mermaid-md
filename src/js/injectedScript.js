@@ -1,7 +1,7 @@
 export default function () {
   const devtool = window.devtool = {
     /**
-     * Post message to content script and then forward message to cc-devtool
+     * Post message to content script and then forward message to devtool
      * @param  {String} type, all type are prefixed with ':'
      * @param  {any} data
      */
@@ -27,7 +27,7 @@ export default function () {
    * print a nice-looking notification if this file injected
    */
   console.log(
-    `%c MermaidMd Devtools %c`,
+    `%c MermaidMd %c`,
     'background:##9370db ; padding: 1px; border-radius: 2px 0 0 2px;  color: #fff',
     'background:#409EFF ; padding: 1px; border-radius: 0 2px 2px 0;  color: #fff'
   );

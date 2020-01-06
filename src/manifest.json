@@ -1,10 +1,10 @@
 {
-  "name": "MermaidMd Devtool",
+  "name": "Mermaid Markdown",
   "version": "1.0.0",
   "description": "A Chrome extension that renders mermaid markdowns into graphs",
   "manifest_version": 2,
   "browser_action": {
-    "default_title": "Mermaid Markdown Devtool",
+    "default_title": "Mermaid Markdown",
     "default_icon": "img/48.png",
     "default_popup": "html/popup-found.html"
   },
