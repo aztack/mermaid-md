@@ -10,7 +10,6 @@ window.addEventListener('load', () => {
   execScript(chrome.runtime.getURL('js/lib/mermaid.8.4.4.min.js'), false, () => {
     log(`Mermaid loaded`);
     const nodes = [];
-    debugger
     chrome.storage.sync.get(['selectors'], (result) => {
       const nodes = (result.selectors || []).reduce((all, sel) => {
         all = all.concat(Array.from(document.querySelectorAll(sel)));
